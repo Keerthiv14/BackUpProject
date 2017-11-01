@@ -1,0 +1,8 @@
+
+<suite name="AutoamtionSuite">
+  <test name="RegressionTest">
+  <packages>
+  	<package name = "com.ipe2.tests"/>
+  	</packages>
+  </test>
+</suite>

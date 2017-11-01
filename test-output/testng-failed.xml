@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutoamtionSuite]">
+  <test name="RegressionTest(failed)">
+    <classes>
+      <class name="com.ipe2.tests.VerifyVersion">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testVerifyVersion"/>
+          <include name="openApp"/>
+          <include name="setDriverPath"/>
+        </methods>
+      </class> <!-- com.ipe2.tests.VerifyVersion -->
+      <class name="com.ipe2.tests.Demo">
+        <methods>
+          <include name="SampleTest"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="setDriverPath"/>
+        </methods>
+      </class> <!-- com.ipe2.tests.Demo -->
+      <class name="com.ipe2.tests.InvalidLogin">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testInvalidLogin"/>
+          <include name="openApp"/>
+          <include name="setDriverPath"/>
+        </methods>
+      </class> <!-- com.ipe2.tests.InvalidLogin -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [AutoamtionSuite] -->
